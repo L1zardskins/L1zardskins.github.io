@@ -5,7 +5,7 @@ body{
     padding: 0%;
     font-size: 18px;
     line-height: 150%;
-
+    background-image: url(../../assets/images/concrete-texture.png)
 }
 
 header{
@@ -56,6 +56,15 @@ a{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.bio-nav{
+    clear: both;
+    float: right;
+    width: 15%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 #main-bio,
 #bio-image{
     float: left;
@@ -76,19 +85,17 @@ a{
     box-sizing: border-box;
     margin-right: 20px;
     width: 200px;
-    height: 200px;
-    border: black;
+    height: 223px;
+    border: teal;
     border-style: solid;
-    border-width: 5px;
+    border-width: 2px;
 }
 
 #bio-image:hover {
     transform: scale(1.5);
     opacity: 0.5;
 }
-div {
-    /* cursor:help; */
-}
+
 .footer {
     position: fixed;
     font-size: 10px;
