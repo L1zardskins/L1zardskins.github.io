@@ -3,12 +3,66 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Bio Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" /> -->
     <script src="main.js"></script>
 </head>
 <body>
-    
+
+    <header>
+    <div class="bio-header">
+        <a href="index.html" class="name">Riley Barlow<a>
+            <nav class="bio-nav">
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+    </div>
+    </header>
+
+    <div class=container>
+
+        <section id="main-bio">
+            <h1>Contact</h1>
+
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea type="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="submit">
+            </form>
+
+        </section>
+
+        <!-- <section id="contact-info">
+        <h2>Contact Info</h2>
+        <ul>
+            <li><strong>Email: </strong> <a href="#">riley.barlow@gmail.com</a></li>
+            <li><strong>Github: </strong><a href="https://github.com/L1zardskins" target="_blank">L1zardskins</a></li>
+            <li><strong>Portfolio: &copy;</strong>Coming Soon</li>
+        </ul>
+        </section> -->
+
+      </div>
+    <footer>
+      <div class="footer">
+              <p>Copywright &copy;</p>
+      </div>
+    </footer>
 </body>
 </html>
+
+<!-- A named entity in html is a code to use special charicters. -->
